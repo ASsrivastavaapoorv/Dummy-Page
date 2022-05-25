@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+/* ================================================================== 1> Smooth Scroll ============*/
+html{
+    scroll-behavior:smooth;
+}
+/* -------------------Header part-------------------- */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+  .logo img{
+    width: 35%;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 60px;
+  }
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+     list-style: none;
+     padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: Black;
+}
+
+.nav-list li a:hover{  
+    background-color: grey;
+    /* ======================================================= 2> Hover on text */
+    border-radius: 280px;
+    padding: 7px;
+}
+
+.rightNav{
+    
+    width: 50%;
+    text-align: right;
+}
+
+/* ===========================New */
+.secondHalf{
+    width: 40%;
+}
+.secondHalf img{
+    width: 150px;
+    border-radius: 140px;
+}
+
+.box-main{
+    display: flex;
+    /* margin-left: 30px; */
+}
+
+.firstHalf p{
+   width: 70%;
+ }
+
+.firstHalf{
+    margin-left: 200px;
+    width: 60%;
+}
+.btn{
+    border: 2px solid pink !important;
+}
+
+
+
+
+
+
+/* -------------------------------Navbar Part-------------- */
+
+.navbar{
+   margin-top: 9px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline-block;
+}
+.burger1{
+    font-size: 24px; 
+    color: black;  
+}
+.list1{
+    color: black;
+    margin-left: 30px;   
+    font-size: 18px; 
+}
+
+/*-----------------------------World of  Learning Part-------------------  */
+#learning1{
+   /* background: url(../images/4.jpg); */
+   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/4.jpg);
+   min-height: 60vh;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 20px 0 80px 0;
+} 
+.text2 h1{
+    text-align: center;
+    font-size: 58px;
+    color: white;
+}
+
+.text2 p{
+    margin-top: 42px;
+    width: 440px;
+    color: white;
+    font-size: 18px;
+}
+.text2 button{
+    margin-top: 25px;
+    padding: 11px 98px;   
+}
+.btn1{
+    border-radius: 30px;
+    background-color: #6483DF;
+    border: none;
+    color: white;
+}
+/* ------------------------------------ Learning Libraruy-------------------- */
+#learning2{
+    margin-top: 50px;
+}
+.library{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.library h1{
+    font-size: 40px;
+}
+.library p{
+    font-size: 20px;   
+}
+.library button{
+    background-color: #6483DF;
+    border: none;
+    color: white;
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    font: 12px 111px;
+    padding: 11px 93px;
+    border-radius: 30px;   
+}
+.library button:hover{
+    box-shadow: 0 0 20px 7px rgba(0, 0,0,0.2); 
+}
+.Bigbox-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+    flex-shrink: 1;
+}
+.box-1{
+    border: 1px solid #bbb;
+    width: 48%; 
+    border-radius: 10px; 
+} 
+.box-heading{
+    display: flex;
+    flex-direction: row;
+}
+.box-heading .fa-book{
+     margin-left: 110px;
+    margin-top: 24px;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    color: #00c4c9;
+    display: inline-block;
+}
+.box-heading h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #39C4C9;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.box-text p{
+    margin: 23px 35px;
+    font-size: 20px;
+}
+.box-text button{
+    margin: 19px 150px;
+    padding: 9px 54px;
+    border-radius: 31px;
+    color: white;
+    background-color:#F36E8F;
+    border: none;
+}
+.box-2{
+    margin-left: 18px;
+    border: 1px solid #bbb;
+    width: 48%; 
+    border-radius: 10px; 
+}
+/* ------ */
+.Bigbox-2{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 32px;
+}
+.box-3{
+    border: 1px solid #bbb;
+    width: 48%; 
+    border-radius: 10px; 
+}
+.box-4{
+    margin-left: 18px;
+    border: 1px solid #bbb;
+    width: 48%;
+    border-radius: 10px; 
+}
+/* -------------------------------- boundless potential------------- */
+#potential{
+    background-color: #FFDED1;
+    text-align: center;
+}
+.boundless h2{
+    padding-top: 80px;
+    font-size: 45px;
+    padding-bottom: 20px
+}
+.boundless p{
+    font-size: 20px;
+    padding-bottom: 20px
+}
+.col-part1 h4{
+    font-size: 30px;
+}
+.col-part1 p{
+    font-size: 18px;
+}
+.down{
+
+    padding-top: 200px;
+}
+.col-part2 h4{
+    font-size: 30px;
+}
+.col-part2 p{
+    font-size: 18px;
+}
+#potential button{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 19px 150px;
+    padding: 10px 89px;
+    border-radius: 31px;
+    color: white;
+    background-color:#6483DF;
+    border: none;
+}
+/* ------------------------Footer 1---------- */
+#footer1{
+  background-color: #6B6B6B;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+nav ul{
+    list-style-type: none !important;
+}
+
+nav ul li{
+    text-decoration: none !important;
+}
+
+nav ul li a{
+    font-size: 14px;
+    color: black;
+}
+#footer1 .color{
+    font-size: 19px;
+    font-weight: 600;
+}
+/* ------------------------Footer 2 ---------- */
+#footer2{
+    background-color: #464646;
+    padding-top: 77px;
+    padding-bottom: 80px;  
+}
+.footer-flex{
+    padding-left: 470px;  
+}
+.footer-flex a{ 
+    display: inline-block;
+    background: #fff;
+    color: #464646;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 3px;   
+}
+#footer2 h6{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+/* -=========Media Queries ===== */
+
+
+
+@media only screen and (max-width: 768px){
+    /* ============================================== 3> Move Items to Bottom side========= */
+   .Bigbox-1{
+       flex-direction: column;
+   }
+   .Bigbox-1 .box-1{
+       width: 70%;
+       /* margin-left: auto;
+       margin-right: auto; */
+       margin: auto;
+       margin-bottom: 20px;
+   }
+   .Bigbox-1 .box-2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+   .Bigbox-2{
+       flex-direction: column;
+   }
+
+   .Bigbox-2 .box-3{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+   }
+   
+   .Bigbox-2 .box-4{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    }
+
+    /* ======================================================== 4> For Reverse Items ================= */
+    .box-main{
+        flex-direction: column-reverse;
+    }
+    .secondHalf img {
+        margin-left: 100%;
+        
+    }
+}
+    
+@media only screen and (max-width: 1280px){
+
+     .nav-list{
+         flex-direction: column;
+     }
+    .navbar{
+        flex-direction: column;
+    }
+}

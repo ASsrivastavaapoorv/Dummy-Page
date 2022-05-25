@@ -1,0 +1,8 @@
+    
+   
+      1) Smooth Scroll:- means that jab hum (navbar) mein same page mein particular component pe jane ke liye Hyperlink use karte hain tab hum ise use karte hain (smooth scroll) ----> from 75 to 81.
+      2) Hover on text ---> 44 to 49
+      3) Move Items to Bottom side ----> from 347 to 349 (Not responsive components move to bottom or in column position)
+      3) Move Items to Bottom side  ----> from 332
+     5) Background Image ---> from 110 to 118
+                
